@@ -1,0 +1,60 @@
+@font-face {
+  font-family: ubuntu;
+  src: url("../ubuntu-font-family-0.80/Ubuntu-L.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: rgb(207, 140, 154);
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+nav .logo-wrapper img {
+  padding: 0.6rem;
+  margin-left: 0.9rem;
+}
+
+nav .logo-wrapper #logo-text {
+  font-family: ubuntu;
+  letter-spacing: 0.3rem;
+}
+
+nav .nav-links {
+  font-family: ubuntu;
+  width: 50vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav .nav-links li {
+  list-style: none;
+}
+
+nav .nav-links li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+nav .nav-links li a:hover {
+  color: rgb(43, 13, 71);
+  font-weight: bold;
+}
+
+.content-wrapper {
+  margin: 60px auto;
+  text-align: center;
+  letter-spacing: 0.4rem;
+  font-family: ubuntu;
+}

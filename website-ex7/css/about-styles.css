@@ -1,0 +1,21 @@
+@font-face {
+  font-family: ubuntu-r;
+  src: url("../ubuntu-font-family-0.80/Ubuntu-R.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.about-wrapper {
+  margin: 80px auto;
+  text-align: center;
+}
+
+.about-wrapper p {
+  font-family: ubuntu-r;
+  font-size: 18px;
+  letter-spacing: 0.2rem;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 minimum-scale=1.0"
+    />
+    <link rel="stylesheet" href="../css/form-styles.css" />
+    <link
+      rel="shortcut icon"
+      href="../images/play-icon-color-orange-scaled.png"
+      type="image/x-icon"
+    />
+    <title>LS Contact Form</title>
+  </head>
+  <body>
+    <div class="form-wrapper">
+      <h1>Contact Form</h1>
+      <form action="submit-message.php">
+        <input type="text" name="firstname" placeholder="First name" />
+        <input type="text" name="secondname" placeholder="Second name" />
+        <div class="radio-wrapper">
+          <h4>Your preferred service</h4>
+          <div class="radio-btn">
+            <input type="radio" name="pronoun" value="website" /> Website
+            <input type="radio" name="pronoun" value="webapp" /> Web-App
+            <input type="radio" name="pronoun" value="mobapp" /> Mobile-App
+            <input type="radio" name="pronoun" value="other" /> Other
+          </div>
+        </div>
+        <div class="checkbox">
+          <h4>Your Requirements</h4>
+          <input type="checkbox" name="end" value="frontend" />Front-End
+          <input type="checkbox" name="end" value="backend" />Back-End
+          <input type="checkbox" name="end" value="fullstack" />Full Stack
+          <input type="checkbox" name="end" value="other" />Other
+        </div>
+        <input type="text" name="email" placeholder="Your email" />
+        <textarea name="message" placeholder="Your message."></textarea>
+        <button>
+          <input type="submit" />
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

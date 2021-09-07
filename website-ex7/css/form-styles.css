@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form-wrapper {
+  margin: 80px auto;
+  width: 40vw;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.form-wrapper form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-wrapper h1 {
+  text-align: center;
+}
+
+.form-wrapper form input {
+  margin: 0.3rem;
+  padding: 0.7rem;
+}
+
+.form-wrapper form .radio-wrapper {
+  margin: 0.7rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.form-wrapper form .checkbox {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.form-wrapper form textarea {
+  padding: 2.8rem;
+}
