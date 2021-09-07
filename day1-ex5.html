@@ -7,6 +7,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0 minimum-scale=1.0"
     />
+    <link rel="stylesheet" href="css/styles-ex5.css" />
     <link
       rel="shortcut icon"
       href="icons/play-icon-color-orange-scaled.png"
@@ -15,8 +16,41 @@
     <title>Contact Form</title>
   </head>
   <body>
-    <form action="backend-stuff.php">
-      <input type="text" />
-    </form>
+    <div class="form-wrapper">
+      <h1>Dating Website Contact Form</h1>
+      <form action="submit-message.php">
+        <input type="text" name="firstname" placeholder="First name" />
+        <input type="text" name="secondname" placeholder="Second name" />
+        <div class="radio-wrapper">
+          <h4>Your preferred pronoun</h4>
+          <div class="radio-btn">
+            <input type="radio" name="pronoun" value="he" /> He
+            <input type="radio" name="pronoun" value="she" /> She
+            <input type="radio" name="pronoun" value="they" /> They
+            <input type="radio" name="pronoun" value="other" /> Other
+          </div>
+        </div>
+        <div class="checkbox">
+          <h4>Your Sexuality</h4>
+          <input
+            type="checkbox"
+            name="sexuality"
+            value="homosexual"
+          />Homosexual
+          <input type="checkbox" name="sexuality" value="bisexual" />Bisexual
+          <input
+            type="checkbox"
+            name="sexuality"
+            value="heterosexual"
+          />Heterosexual
+          <input type="checkbox" name="sexuality" value="other" />Other
+        </div>
+        <input type="text" name="email" placeholder="Your email" />
+        <textarea name="message" placeholder="Your message."></textarea>
+        <button>
+          <input type="submit" />
+        </button>
+      </form>
+    </div>
   </body>
 </html>
