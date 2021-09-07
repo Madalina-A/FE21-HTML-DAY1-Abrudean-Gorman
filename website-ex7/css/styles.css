@@ -58,3 +58,26 @@ nav .nav-links li a:hover {
   letter-spacing: 0.4rem;
   font-family: ubuntu;
 }
+
+.content-wrapper .ex2-wrapper {
+  margin-top: 30px;
+  line-height: 2.8rem;
+}
+
+.lyrics-wrapper {
+  margin: 100px auto;
+  font-family: ubuntu;
+  text-align: center;
+}
+
+.lyrics-wrapper h3 {
+  margin-top: 1rem;
+}
+
+.lyrics-wrapper h4 {
+  margin: 0.4rem;
+}
+
+.lyrics-wrapper span {
+  padding-bottom: 0.2rem;
+}
