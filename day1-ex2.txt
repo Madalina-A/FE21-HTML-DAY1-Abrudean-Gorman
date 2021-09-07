@@ -1,0 +1,35 @@
+<?DOCTYPE htlm> # correct html and ! instead of ?
+
+<html lang=en’>  # correct spelling of meta and quotations  (add dir for fun)
+
+# add openning head tag 
+
+<meata charset=’utf-8> # correct spelling of meta, quotations and end of tag 
+
+<titel> HTML text formatting elements /tatle>  # correct title tags
+
+<haed> # correct spelling of head and add openning tag above
+
+<bady> # correct body spelling
+
+<h1> HTML text formatting elements h1/> # Correct closing tag
+
+<p “ Here we can see the HTML elements for text formating with or without special meaning <//p> # correct both tags
+
+<p> b> This is bold text </b> <p> # Correct bold-tags
+
+<par> <strogn> This is strong text </strong> <p>  # correct p and strong tags
+
+> <i> This is italic text <i></p> # i tags
+
+<p> <ep> This is emphasize text </ec><p/> # em tags
+
+<p> <sub> This is subscripted text /sb></p> # sub tags
+
+<p <sup> This is superscripted text <spu><p> # sup tags
+
+<p> <as> This is strikethrough text </s <p/> # strike tag p tag
+
+</badi> # correct body spelling
+
+</html>
